@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.grid > li {
+  min-height: 50px;
+  background-color: #a84487;
+  border: 2px solid #eae6e8;
+}
+.grid-col-6 > li {
+  width: 16.66%;
+}
+.grid-col-4 > li {
+  width: 25%;
+}
+.grid-col-3 > li {
+  width: 33%;
+}
+.grid-col-2 > li {
+  width: 50%;
+}
